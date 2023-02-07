@@ -1,0 +1,15 @@
+CREATE TABLE `address`.`addresses` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `first_name` VARCHAR(45) NULL,
+  `last_name` VARCHAR(45) NULL,
+  `date_of_birth` VARCHAR(45) NULL,
+  `gender` VARCHAR(45) NULL,
+  `contact_mobile` VARCHAR(45) NULL,
+  `contact_phone` VARCHAR(45) NULL,
+  `email_address` VARCHAR(45) NULL,
+  `street` VARCHAR(45) NULL,
+  `city` VARCHAR(45) NULL,
+  `hobbies` VARCHAR(45) NULL,
+  `created_at` DATETIME NULL DEFAULT NULL,
+  `updated_at` DATETIME NULL DEFAULT NULL,
+  PRIMARY KEY (`id`));
